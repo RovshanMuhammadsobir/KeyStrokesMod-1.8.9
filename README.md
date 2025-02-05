@@ -1,23 +1,19 @@
-## Simple Voice Chat - A working voice chat in Minecraft!
+# KeystrokesBase
+A simple keystrokes mod base that isn't terrible
 
-### Features
-    Push to talk
-    Voice activation
-    Proximity voice chat
-    Password protected group chats
-    Opus codec
-    RNNoise recurrent neural network noise suppression
-    OpenAL audio
-    Cross compatibility between Fabric, NeoForge, Forge, Quilt, Bukkit, Spigot and Paper
-    Support for Velocity, BungeeCord and Waterfall
-    Compatibility with ModMenu (Use ClothConfig for a better configuration UI)
-    Configurable push to talk key
-    Microphone test playback
-    Configurable voice distance
-    Whispering
-    Individual player volume adjustment
-    Microphone amplification
-    3D sound
-    AES encryption
-    Audio recording with separate audio tracks
-    A powerful API
+***
+
+## Features:
+* Easy to use key layout builder that doesn't require hardcoding any key offsets or dimensions
+* Supports left and right mouse buttons (with CPS counter for both) and space bar
+* Supports key outline
+* New gradient chroma effect
+* Unlike the old keystrokes mods, whenever the game window is resized the HUD position will be updated accordingly (so when you move the HUD to the right side of your screen and then go in fullscreen, the HUD will stay on the right side)
+
+## What's missing:
+* Position is only stored in memory, instead of a file
+* The key layout or color isn't configurable
+
+***
+
+This project follows the [Google Java Style Guide](http://google.github.io/styleguide/javaguide.html) and requires [Lombok](https://projectlombok.org/).
